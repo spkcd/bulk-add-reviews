@@ -1,0 +1,64 @@
+/* Style for the progress bar */
+#progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    margin-top: 10px;
+    height: 20px;
+    position: relative;
+}
+
+#progress-fill {
+    background-color: #0073aa;
+    width: 0%;
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.5s;
+}
+
+#progress-text {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.bar-delete-reviewer {
+    color: #a00;
+}
+
+#bulk-add-reviews-container h2 {
+    margin-top: 30px;
+}
+
+#delete-progress, #delete-completion-message,
+#delete-generated-progress, #delete-generated-completion-message {
+    margin-top: 20px;
+}
+
+#bar-add-reviewer-form,
+#bar-batch-size-form,
+#bar-generate-reviews-form {
+    margin-bottom: 30px;
+}
+
+/* Style for the generate reviews progress bar */
+#generate-progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    margin-top: 10px;
+    height: 20px;
+    position: relative;
+}
+
+#generate-progress-fill {
+    background-color: #0073aa;
+    width: 0%;
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.5s;
+}
+
+#generate-progress-text {
+    margin-top: 5px;
+    font-weight: bold;
+}

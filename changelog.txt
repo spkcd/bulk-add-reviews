@@ -1,0 +1,39 @@
+Changelog for Bulk Add Reviews Plugin
+
+Version 1.0
+
+	•	Initial Release
+	•	Introduced the Bulk Add Reviews plugin for WooCommerce.
+	•	Added functionality to bulk add 5-star reviews to WooCommerce products.
+	•	Implemented AJAX-based batch processing to handle large numbers of products without server timeouts.
+	•	Included a progress bar to display the processing status during the addition of reviews.
+	•	Reviews were added using a default reviewer name and message.
+
+    Version 1.1
+
+	•	Multiple Reviewers and Reviews
+	•	Added the ability to input multiple reviewers with their names, emails, and review messages.
+	•	Implemented a management interface in the admin dashboard to add, view, and delete reviewers.
+	•	Modified batch processing to use custom reviewers and randomly select from the list when adding reviews.
+	•	Provided an option to delete all reviews added by the plugin based on the reviewers’ emails.
+	•	Improved user experience with AJAX handling for reviewer management and review deletion.
+
+    Version 1.2
+
+	•	Adjustable Batch Size
+	•	Introduced an option in the plugin’s admin page to modify the batch size.
+	•	Stored the batch size setting in the WordPress options table for persistence across sessions.
+	•	Updated batch processing to use the user-defined batch size instead of a hardcoded value.
+	•	Added input validation and sanitization to ensure the batch size is a positive integer.
+	•	Enhanced the user interface to include the batch size setting with appropriate feedback messages.
+
+    Version 1.3
+
+	•	Generate Test Reviews
+	•	Added functionality to generate a specified number of test reviews with randomized content.
+	•	Implemented a form to specify the number of reviews to generate and a button to initiate the process.
+	•	Used sample data arrays to randomize reviewer names, emails, messages, and ratings.
+	•	Included a progress bar to display the status of the review generation process.
+	•	Provided an option to delete all generated test reviews, identified by a custom meta key.
+	•	Ensured that generated reviews are flagged for easy identification and cleanup.
+	•	Enhanced the plugin’s usability for testing server performance and design layouts.
